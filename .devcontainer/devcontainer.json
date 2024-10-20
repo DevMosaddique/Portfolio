@@ -1,6 +1,6 @@
 {
   "name": "Node.js",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20.18.0",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,9 +13,12 @@
         "DavidMorais.dark-magic-themes"
       ],
       "settings": {
+        
+        "editor.fontFamily": "'Fira Code', monospace",
+        "editor.fontLigatures": true,
         "workbench.colorTheme": "Dark Magic Tokyo",
         "workbench.iconTheme": "material-icon-theme",
-        "terminal.integrated.fontFamily": "Cascadia Code, monospace",
+        "terminal.integrated.fontFamily": "monospace",
         "terminal.integrated.fontSize": 14,
         "terminal.integrated.lineHeight": 1.4,
         "terminal.integrated.cursorStyle": "block",
@@ -30,7 +33,6 @@
         "terminal.integrated.selectionBackground": "#264f78",
         "terminal.integrated.bellDuration": 0,
         "terminal.integrated.tabFocusMode": false,
-        "editor.fontFamily": "Cascadia Code, monospace",
         "editor.fontSize": 14,
         "editor.lineHeight": 22,
         "editor.formatOnSave": true,
