@@ -1,0 +1,41 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "formulahendry.auto-rename-tag",
+        "xabikos.JavaScriptSnippets",
+        "ritwickdey.LiveServer",
+        "pkief.material-icon-theme"
+      ],
+      "settings": {
+        "workbench.colorTheme": "One Dark Pro Darker",
+        "workbench.iconTheme": "material-icon-theme",
+        "terminal.integrated.fontFamily": "Cascadia Code, monospace",
+        "editor.fontFamily": "Cascadia Code, monospace",
+        "editor.fontSize": 14,
+        "editor.lineHeight": 22,
+        "editor.formatOnSave": true,
+        "editor.minimap.enabled": false,
+        "editor.lineNumbers": "off",
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.autoSave": "afterDelay",
+        "search.exclude": {
+          "**/node_modules": true,
+          "**/dist": true
+        },
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "none",
+        "explorer.confirmDelete": false,
+        "editor.cursorBlinking": "solid",
+        "editor.smoothScrolling": true,
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+      }
+    }
+  }
+}
