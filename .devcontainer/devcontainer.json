@@ -1,6 +1,6 @@
 {
   "name": "Node.js",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20.18.0",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,7 +13,6 @@
         "DavidMorais.dark-magic-themes"
       ],
       "settings": {
-        
         "editor.fontFamily": "'Fira Code', monospace",
         "editor.fontLigatures": true,
         "workbench.colorTheme": "Dark Magic Tokyo",
@@ -52,7 +51,6 @@
         "editor.smoothScrolling": true,
         "editor.tabSize": 2,
         "editor.detectIndentation": false,
-
         "workbench.activityBar.visible": false,
         "workbench.statusBar.visible": false,
         "workbench.editor.showTabs": "none",
